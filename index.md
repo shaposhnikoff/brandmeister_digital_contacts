@@ -1,0 +1,15 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html><head><title>Index of http://gnu.askapache.com/</title></head>
+<body><h1>Index of /</h1><pre>      Name                                        Last modified      Size
+      <a href="CNAME">CNAME</a>                                       20-січ-2021 12:30  48
+      <a href="commit.sh">commit.sh</a>                                   20-січ-2021 13:00  193
+      <a href="index.md">index.md</a>                                    20-січ-2021 13:01  424
+      <a href="README.md">README.md</a>                                   20-січ-2021 12:59  632
+      <a href="users.csv_2021.01.20-12:40:32">users.csv_2021.01.20-12:40:32</a>               20-січ-2021 12:40  15M
+      <a href="users.csv_2021.01.20-12:43:00">users.csv_2021.01.20-12:43:00</a>               20-січ-2021 12:43  15M
+      <a href="users.csv_2021.01.20-12:43:28">users.csv_2021.01.20-12:43:28</a>               20-січ-2021 12:43  15M
+      <a href="users.csv_2021.01.20-12:44:45">users.csv_2021.01.20-12:44:45</a>               20-січ-2021 12:44  15M
+      <a href="users.csv_2021.01.20-12:45:47">users.csv_2021.01.20-12:45:47</a>               20-січ-2021 12:45  15M
+      <a href="users.json">users.json</a>                                  20-січ-2021 12:45  32M
+      <a href=".git">.git/</a>                                       20-січ-2021 13:00  -
+</pre><address>Apache Server at gnu.askapache.com</address></body></html>
