@@ -5,7 +5,7 @@ Brandmeister digital contacts created automaticaly by cron
 Works at least for Anytone at-d878uv
 if you need digital contacts for you radio - send me a message of create a pull request.
 <br>
-<a href=https://t.me/shaposhnikoff>telegram</a>
+<a href=https://t.me/shaposhnikoff>contact me</a>
 
 <br>
 <body><h1>Index of /</h1><pre>      Name                                        Last modified      Size
@@ -18,4 +18,5 @@ if you need digital contacts for you radio - send me a message of create a pull 
       <a href="users.csv_2021.01.20-13:26:31">users.csv_2021.01.20-13:26:31</a>               20-січ-2021 13:26  15M
       <a href="users.csv_2021.01.20-13:27:37">users.csv_2021.01.20-13:27:37</a>               20-січ-2021 13:27  15M
       <a href="users.csv_2021.01.20-13:28:19">users.csv_2021.01.20-13:28:19</a>               20-січ-2021 13:28  15M
+      <a href="users.csv_2021.01.20-13:29:01">users.csv_2021.01.20-13:29:01</a>               20-січ-2021 13:29  15M
 </pre><address>Apache Server at brandmeister-digital-contacts</address></body></html>
