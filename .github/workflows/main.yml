@@ -35,6 +35,13 @@ jobs:
       - name: Generate BM digital contacts for RB 
         run: |
           python3 jtc_users.by.py
+          
+          
+      - name: 'Get pandoc'
+        run:  sudo apt-get install pandoc
+    
+      - name: 'Get My TODO List'
+        run:  pandoc ./index.md > result.html
 
           
       - name: setup git config
