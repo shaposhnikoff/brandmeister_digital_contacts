@@ -101,7 +101,7 @@ function create_gnu_index ()
 #    $2 is subdir like '/subdir/' if thats the web root, '/' if no subdir
 #    $3 is the domain 'subdomain.domain.tld'
 #create_gnu_index "/home/max/git_repos/brandmeister_digital_contacts/" "/" "Github pages"
-create_gnu_index "/home/runner/work/brandmeister-digital-contacts/brandmeister-digital-contacts" "/" "Github pages"
+create_gnu_index "/home/runner/work/brandmeister-digital-contacts/brandmeister-digital-contacts/" "/" "Github pages"
 
 # takes about 1-5 seconds to complete
 exit
