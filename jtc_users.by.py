@@ -7,7 +7,9 @@ from os import path
 '''Specify the country ( Ukraine of Belarus ) for selection by country '''
 country = "Belarus"
 fileInput = "users.json"
-fileOutput = "users."+str(country)+"-"+str(datetime.now().strftime("%Y.%m.%d-%H:%M:%S"))+".csv"
+#fileOutput = "users."+str(country)+"-"+str(datetime.now().strftime("%Y.%m.%d-%H:%M:%S"))+".csv"
+fileOutput = "users."+str(country)+str(datetime.now().strftime("%Y%m%d-%H%M%S"))+".csv"
+
 fileage = 60
 source_file = "https://database.radioid.net/static/users.json"
 
