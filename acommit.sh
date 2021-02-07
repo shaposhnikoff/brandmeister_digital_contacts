@@ -2,7 +2,10 @@
 
 dated=`date +%Y-%m-%d-%H%M%S`
 
-./gnu-mirror-index-creator.sh
+#./gnu-mirror-index-creator.sh
+
+tree -P "*.csv" -H '.' --charset utf-8 > index.html
+
 
 pwd
 sleep 1 
