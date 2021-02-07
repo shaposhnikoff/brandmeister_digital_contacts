@@ -39,8 +39,8 @@ jobs:
           python3 jtc_users.by.py
           
           
-      - name: 'Get pandoc'
-        run:  sudo apt-get install pandoc
+#      - name: 'Get pandoc'
+#        run:  sudo apt-get install pandoc
     
 #      - name: 'Get My TODO List'
 #        run:  pandoc ./cv.md > index.html
@@ -53,7 +53,7 @@ jobs:
 #          pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
 
       - name: Create directory listing 
-        run: ./gnu-mirror-index-creator.sh
+        run: tree -P "*.csv" -H '.' --charset utf-8 > index.html
                
       - name: setup git config
         run: |
