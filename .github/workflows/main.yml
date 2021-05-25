@@ -66,23 +66,23 @@ jobs:
           ./acommit.sh
           
            
-      - name: Send mail
-        if: always()
-        uses: dawidd6/action-send-mail@v2
-        with:
-          server_address: smtp.gmail.com
-          server_port: 465
-          username: ${{secrets.EMAIL_USERNAME}}
-          password: ${{secrets.EMAIL_PASSWORD}}
-          subject: Github Actions job result ${{ github.job }} job of ${{ github.repository }} has ${{ job.status }}
-          # Literal body:
-          # body: Build job of ${{github.repository}} completed successfully!
-          body: Build job of ${{ github.job }} job in worflow ${{ github.workflow }} of ${{ github.repository }} has ${{ job.status }}
-          # Read file contents as body:
-          # body: file://README.md
-          to: shaposhnikoff@gmail.com ,max@shaposhnikoff.info
-          from: Maksym Shaposhnikov # <user@example.com>
-          # Optional carbon copy recipients
-          content_type: text/html
-          # Optional converting Markdown to HTML (set content_type to text/html too):
-          convert_markdown: true
+#      - name: Send mail
+#        if: always()
+#        uses: dawidd6/action-send-mail@v2
+#        with:
+#          server_address: smtp.gmail.com
+#          server_port: 465
+#          username: ${{secrets.EMAIL_USERNAME}}
+#          password: ${{secrets.EMAIL_PASSWORD}}
+#          subject: Github Actions job result ${{ github.job }} job of ${{ github.repository }} has ${{ job.status }}
+#          # Literal body:
+#          # body: Build job of ${{github.repository}} completed successfully!
+#          body: Build job of ${{ github.job }} job in worflow ${{ github.workflow }} of ${{ github.repository }} has ${{ job.status }}
+#          # Read file contents as body:
+#          # body: file://README.md
+#          to: shaposhnikoff@gmail.com ,max@shaposhnikoff.info
+#          from: Maksym Shaposhnikov # <user@example.com>
+#          # Optional carbon copy recipients
+#          content_type: text/html
+#          # Optional converting Markdown to HTML (set content_type to text/html too):
+#          convert_markdown: true
